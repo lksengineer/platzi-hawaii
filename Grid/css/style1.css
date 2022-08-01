@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: darkgreen;
+}
+
+.main-section {
+    height: 100px;
+}
+
+.col {
+    display: flex;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+}

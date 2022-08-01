@@ -1,0 +1,11 @@
+.container {
+    background:linear-gradient(45deg, #001333, #001333 30%,#3C668E);
+}
+
+.row {
+    height: 100px;
+}
+
+.main-col {
+    border: 1px solid white;
+}

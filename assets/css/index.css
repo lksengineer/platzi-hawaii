@@ -1,0 +1,24 @@
+header .container {
+    padding: 10px 0;
+}
+
+header img {
+    width: 80px;
+}
+
+header nav #nav-buy-ticket {
+    color: #97c93e !important;
+}
+
+#nav-buy-ticket:hover {
+    /* color: hsl(90, 3%, 76%) !important; */
+    color: greenyellow !important;
+}
+
+footer {
+    background:linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+}
+
+footer .container {
+    padding: 25px 0;
+}
