@@ -1,10 +1,32 @@
+:root {
+    --color-primary: #1c3643;
+    --color-secondary: #273b47;
+    --color-tertiary: #1e5372;
+    --color-platzi: #97c93e;
+    --color-platzi-hover: greenyellow;
+    --color-gradient: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-tertiary));
+}
+
 .btn-platzi {
-    background-color: #97c93e;
+    background-color: var(--color-platzi);
     color: white;
 }
 
 .btn-platzi:hover {
-    background-color: #82ad36;
+    /* background-color: #82ad36; */
+    background-color: var(--color-platzi-hover);
+}
+
+.badge-right {
+    /* float: right; */
+    text-align: right;
+}
+
+.card-body {
+    /* background-color: var(--color-tertiary); */
+    /* background:linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372); */
+    background: var(--color-gradient);
+    color: white;
 }
 
 header .container {
@@ -16,12 +38,12 @@ header img {
 }
 
 header nav #nav-buy-ticket {
-    color: #97c93e !important;
+    color: var(--color-platzi);
 }
 
 header nav #nav-buy-ticket:hover {
     /* color: hsl(90, 3%, 76%) !important; */
-    color: greenyellow !important;
+    color: var(--color-platzi-hover)
 }
 
 main section .carousel-inner img {
@@ -49,10 +71,16 @@ main section .carousel-inner img {
     height: 100%;
 }
 
+#place-time img {
+    max-width: 100%;
+}
+
 footer {
     background:linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+    /* background: var(--color-gradient); */
 }
 
 footer .container {
     padding: 25px 0;
 }
+

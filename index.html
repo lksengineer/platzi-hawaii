@@ -21,10 +21,8 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3 p-sm-2">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <figcaption>
               <img src="./assets/img/platzi-logo.png" alt="Platzi Logo">
-              <caption>Conf Hawaii</caption>
-            </figcaption>
+              <span>Conf Hawaii</span>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -100,16 +98,18 @@
     <!-- /Main -->
 
     <!-- speakers -->
-    <section id="speakers" class="mt-4">
+    <section id="speakers">
       <div class="container">
         <!-- row 1 -->
         <div class="row pb-3 pb-md-0">
-          <div class="col text-center text-uppercase">
+          <div class="col text-center text-uppercase mt-4">
             <small>Conoce a los</small>
             <h2>Speakers</h2>
-            <p class="mt-4 mb-5 d-none d-md-block">
-              Platzi Conf Hawaii es un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del Team Platzi, a otros estudiantes de Platzi y a los oradores de primer nivel que tenemos para ti. Te esperamos!
-            </p>
+          </div>
+        </div>
+        <div class="row d-none d-md-block">
+          <div class="col">
+            <p class="">Platzi Conf Hawaii es un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del Team Platzi, a otros estudiantes de Platzi y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
           </div>
         </div>
         <!-- /row 1 -->
@@ -117,44 +117,68 @@
         <!-- row 2 -->
         <div class="row">
           <!-- col 1 -->
-          <div class="col-md-6 col-lg-4 mb-5">
+          <div class="col-md-6 col-lg-4 col-xl-3  mb-5">
             <div class="card">
               <img src="./assets/img/speakers/sacha.jpg" class="card-img-top" alt="Profile picture of Sasha">
               <div class="card-body">
-                <h5 class="card-title">Sazha Ishe</h5>
+                <div class="badges badge-right">
+                  <span class="badge bg-primary">Bootstrap</span>
+                </div>
+                <h5 class="card-title mb-0">Sazha Ishe</h5>
+                <small>Bootstrap Designer</small>
+                <hr>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta repellendus, doloremque iusto corporis nulla in fugiat, hic quaerat est dolorem nostrum. Illo doloribus sequi quisquam dicta sunt ut eligendi dolorem, odit, at aperiam eius corporis expedita alias quod laboriosam?</p>
               </div>
             </div>
           </div>
           <!-- /col 1 -->
           <!-- col 2 -->
-          <div class="col-md-6 col-lg-4 mb-5">
+          <div class="col-md-6 col-lg-4 col-xl-3 mb-5">
             <div class="card">
-              <img src="./assets/img/speakers/leonidas.jpeg" class="card-img-top" alt="Profile picture of Leonidas">
+              <img src="./assets/img/speakers/leonidas2.jpeg" class="card-img-top" alt="Profile picture of Leonidas">
               <div class="card-body">
-                <h5 class="card-title">Leonidas Bastidas</h5>
+                <div class="badges badge-right">
+                  <span class="badge bg-warning">JavaScript</span>
+                  <span class="badge bg-danger">HTML</span>
+                  <span class="badge bg-info">CSS</span>
+                </div>
+                <h5 class="card-title mb-0">Leonidas Bastidas</h5>
+                <small>Frontend Developer</small>
+                <hr>
                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti totam recusandae laborum quas animi a atque consequuntur ipsam, saepe iusto maxime nihil explicabo doloribus ullam. Aut quis delectus magnam facilis animi temporibus vel fuga a!</p>
               </div>
             </div>
           </div>
           <!-- /col 2 -->
           <!-- col 3 -->
-          <div class="col-md-6 col-lg-4 mb-5">
+          <div class="col-md-6 col-lg-4 col-xl-3 mb-5">
             <div class="card">
               <img src="./assets/img/speakers/cvander.jpeg" class="card-img-top" alt="Profile picture of Cvander">
               <div class="card-body">
-                <h5 class="card-title">Cvander</h5>
+                <div class="badges badge-right">
+                  <span class="badge bg-warning">Python</span>
+                  <span class="badge bg-success">Django</span>
+                </div>
+                <h5 class="card-title mb-0">Cvander</h5>
+                <small>Backend Developer</small>
+                <hr>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ipsam reprehenderit! Sit omnis sapiente voluptates exercitationem, quaerat perferendis nesciunt! Dicta, saepe. Tempore totam minus atque ipsam enim quidem quos doloremque molestiae autem, vero id optio, commodi et magni amet? Minima consectetur cumque rerum quam tenetur?</p>
               </div>
             </div>
           </div>
           <!-- /col 3 -->
           <!-- col 4 -->
-          <div class="col-md-6 col-lg-4 mb-5">
+          <div class="col-md-6 col-lg-4 col-xl-3 mb-5">
             <div class="card">
               <img src="./assets/img/speakers/freddy.jpeg" class="card-img-top" alt="Profile picture of Freddy Vega">
               <div class="card-body">
-                <h5 class="card-title">Freddy Vega</h5>
+                <div class="badges badge-right">
+                  <span class="badge bg-primary">React</span>
+                  <span class="badge bg-info">NodeJS</span>
+                </div>
+                <h5 class="card-title mb-0">Freddy Vega</h5>
+                <small>CEO Of Platzi</small>
+                <hr>
                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate incidunt tempora excepturi praesentium commodi deserunt recusandae ab, dolores amet aspernatur mollitia modi provident sunt pariatur optio suscipit ullam iusto laudantium. Voluptate, aliquid ad quos est numquam sint eius perferendis perspiciatis autem. Quasi dolore, delectus voluptas impedit vel quibusdam ab soluta eos et? Eos, corporis.</p>
               </div>
             </div>
@@ -164,6 +188,59 @@
       </div>
     </section>
     <!-- /speakers -->
+
+    <!-- place-time -->
+    <section id="place-time">
+      <div class="container-fluid bg-dark">
+        <div class="row">
+          <div class="col-12 col-lg-6 ps-0 pe-0">
+            <figure class="mb-0">
+              <img src="./assets/img/honolulu.jpg" alt="Honolulu">
+            </figure>
+          </div>
+          <div class="col-12 col-lg-6 pt-4 pb-4 text-light">
+            <h1>Honolulu - October 2025</h1>
+            <p>Honolulu o Honolulú​ es la capital y localidad más grande del estado de Hawái, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).</p>
+            <a href="https://es.wikipedia.org/wiki/Honolulu" class="btn btn-outline-light">Conoce más</a>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- /place-time -->
+
+    <!-- Become a Speaker -->
+    <section id="become-speaker" class="pt-4 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+            <small>Become a</small>
+            <h2>Speaker</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <p>Anótate como orador para dar una <abbr data-toggle="tooltip" title="Charlas de 5 minutos">charla ignite</abbr>.
+              Cuéntanos de qué quieres hablar!</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-5 col-lg-4 form-label">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          </div>
+          <div class="col-12 col-md-5 col-lg-4 form-label">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col col-md-10 col-lg-8">
+            <textarea class="form-control" placeholder="¿Sobre qué tema quieres hablar?"></textarea>
+            <small class="form-text text-muted">No olvides dejarnos tu título a exponer</small>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Become a Speaker -->
 
     <!-- Footer -->
     <footer>
