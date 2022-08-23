@@ -7,6 +7,10 @@
     --color-gradient: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-tertiary));
 }
 
+.bg-platzi {
+    background-color: var(--color-platzi);
+}
+
 .btn-platzi {
     background-color: var(--color-platzi);
     color: white;
